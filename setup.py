@@ -6,7 +6,7 @@ g1fitting_ext_mod = Extension("g1fitting",
   sources=["g1fittingmodule.cpp"],
   include_dirs=["."],
   extra_compile_args=["-std=c++11"],
-  libraries=["boost_python"],
+  libraries=["boost_python3"],
 )
 
 # unwanted_flags = [
